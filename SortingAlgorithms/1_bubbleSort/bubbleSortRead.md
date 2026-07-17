@@ -10,5 +10,5 @@
 - We end the sorting when 'swapped' remains **False** after a pass
 - Time Complexity : O(n^2) 
     - *Two for loops where each iterate n times in the worst case leading to n x n computations*
-- Space Complexity: O(n)
+- Space Complexity: O(1)
     - *Swapping happens inplace*
