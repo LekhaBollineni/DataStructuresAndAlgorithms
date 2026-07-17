@@ -8,7 +8,7 @@
 - The number that is currently being determined if it should be moved to left or not is stored in a variable say *'key'*
 - In every iteration *'i'*, if we came across a *'key'* that is smaller than the *'i-1'th* number then we start moving left. 
 - So we take a variable *'j'* and make it *'i-1'*
-- When the *'key'* is compared to a number a position *'j'*; if the *'key'* is smaller, then the bigger number is moved to *'j+1'th* position, leaving the *'j'th* position for *'key'*
+- When the *'key'* is compared to a number at position *'j'*; if the *'key'* is smaller, then the bigger number is moved to *'j+1'th* position, leaving the *'j'th* position for *'key'*
 - And to keep moving left *'j'* is decremented utmost until we reach the start.
 - If the *'key'* is greater than the number on it's left, then it reached it's right place and key becomes the *'j+1'th* number.
 
